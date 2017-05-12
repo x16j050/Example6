@@ -10,6 +10,17 @@ namespace Example6
     {
         static void Main(string[] args)
         {
+            int score;
+            double pai;
+            string name;
+
+            score = 25;
+            pai = 3.1415;
+            name = "TARO";
+
+                Console.WriteLine("SCORE = {0}", score);
+                Console.WriteLine("AVE = {0}", pai);
+                Console.WriteLine("NAME = {0}", name);
         }
     }
 }
